@@ -4,7 +4,7 @@
 
 Windows10+minGW32
 
-**运行命令：**mingw32-make (options)
+**运行命令：** mingw32-make (options)
 
 **options:**
 
@@ -26,47 +26,47 @@ Windows10+minGW32
 
 ### Step1
 
-![1536744819719](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536744819719.png)
+![1536744819719](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536744819719.png?raw=true)
 
 ### Step2
 
-![1536744840466](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536744840466.png)
+![1536744840466](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536744840466.png?raw=true)
 
 ### Step3
 
 #### 不调用Library实现
 
-![1536744908186](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536744908186.png)
+![1536744908186](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536744908186.png?raw=true)
 
 #### 调用Library实现
 
-![1536744963412](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536744963412.png)
+![1536744963412](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536744963412.png?raw=true)
 
 ### Step4
 
 #### 不调用Library实现
 
-![1536745028531](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745028531.png)
+![1536745028531](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745028531.png?raw=true)
 
 #### 调用Library实现
 
-![1536745065598](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745065598.png)
+![1536745065598](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745065598.png?raw=true)
 
 ### Step5
 
 #### 不调用Library实现
 
-![1536745088069](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745088069.png)
+![1536745088069](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745187338.png?raw=true)
 
 #### 调用Library实现
 
-![1536745187338](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745187338.png)
+![1536745187338](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745088069.png?raw=true)
 
 ### Step6
 
 `2.bmp`
 
-![1536745612028](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745612028.png)
+![1536745612028](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745612028.png?raw=true)
 
 ## 测试数据以及分析
 
@@ -74,7 +74,7 @@ Windows10+minGW32
 
 测试结果如下：
 
-![1536745997169](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536745997169.png)
+![1536745997169](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536745997169.png?raw=true)
 
 ### 第三步、第四步调用CImg函数与手动实现的比较
 
@@ -94,7 +94,7 @@ if((i-x)*(i-x)+(j-y)*(j-y) <= R*R)
 
 ​	但却发现，结果与CImg的库函数中所实现的圆去之甚远。
 
-![1536760048464](C:\Users\Sherry\AppData\Roaming\Typora\typora-user-images\1536760048464.png)
+![1536760048464](https://github.com/Yuandi-Sherry/ComputerVisionHw1/blob/master/Pics/1536760048464.png?raw=true)
 
 ​	中点圆算法在Solution中使用`MPCircle`实现了，并在`Question3Manual`和`Question4Manual`中对中点圆方法的调用写在了注释中。
 
